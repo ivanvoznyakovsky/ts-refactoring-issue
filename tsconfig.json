@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "allowUnusedLabels": false,
+      "noEmitOnError": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "target": "es5",
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "lib": ["dom", "es6", "es2016.array.include"],
+      "baseUrl": ".",
+    },
+    "files": ["./app/app.ts"]
+  }
+  
