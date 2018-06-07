@@ -10,6 +10,8 @@
       "lib": ["dom", "es6", "es2016.array.include"],
       "baseUrl": ".",
     },
-    "files": ["./app/app.ts"]
+    // "files": [] // works
+    // "files": ["./app/*"] // works
+    "files": ["./app/app.ts"] // does not work
   }
   
